@@ -89,3 +89,7 @@ HTTPS Termination - автоматическое управление серти
 - Простая настройка и развертывание
 - Web UI для мониторинга и управления
 - Широкая документация и сообщество
+
+## Задача 3:
+
+!(Скриншот задание 3)[https://github.com/Sem20071/hw-microservices/blob/main/11-microservices-02-principles-02/images/dz_microservices-02-01.png]
