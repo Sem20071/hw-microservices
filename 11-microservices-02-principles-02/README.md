@@ -16,7 +16,7 @@
 Сравнительная таблица решений API Gateway:
 | Критерий | Kong |	NGINX |	Traefik |
 |----------|---------|--------|---------|
-Маршрутизация       | Динамическая Load Balancing Canary релизы |  Статическая Load Balancing | Динамическая Load Balancing Canary релизы |
+Маршрутизация       | Динамическая  Load Balancing  Canary релизы |  Статическая  Load  Balancing | Динамическая  Load Balancing  Canary релизы |
 Аутентификация      | JWT OAuth2 Key Auth ACL | Basic Auth JWT (с модулями) | JWT Basic Auth OAuth2 (Middleware) |
 HTTPS Termination   | Самоподписанные, Let's Encrypt, Custom Certs | Самоподписанные, Let's Encrypt, Custom Certs | Самоподписанные, Let's Encrypt, Custom Certs |
 Мониторинг          | Prometheus, Datadog, Custom metrics | Prometheus, Статус страницы | Prometheus, Custom metrics |
