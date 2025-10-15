@@ -18,7 +18,7 @@
 |----------|---------|--------|---------|
 Маршрутизация       | Динамическая Load Balancing Canary релизы |  Статическая Load Balancing | Динамическая Load Balancing Canary релизы |
 Аутентификация      | JWT OAuth2 Key Auth ACL | Basic Auth JWT (с модулями) | JWT Basic Auth OAuth2 (Middleware) |
-HTTPS Termination   |
-Мониторинг          |
-Производительность  |
-Цена                |
+HTTPS Termination   | Самоподписанные, Let's Encrypt, Custom Certs | Самоподписанные, Let's Encrypt, Custom Certs | Самоподписанные, Let's Encrypt, Custom Certs |
+Мониторинг          | Prometheus, Datadog, Custom metrics | Prometheus, Статус страницы | Prometheus, Custom metrics |
+Производительность  | 15-20k RPS | 50-100k RPS | 0-15k RPS |
+Лицензирование и стоймойсть  | Enterprise, Free OSS | Free OSS, Plus ($2500+/год) | 100% Free OSS |
