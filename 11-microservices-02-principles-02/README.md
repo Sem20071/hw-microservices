@@ -16,9 +16,9 @@
 Сравнительная таблица решений API Gateway:
 | Критерий | Kong |	NGINX |	Traefik |
 |----------|---------|--------|---------|
-Маршрутизация       | Динамическая \ Load Balancing \ Canary релизы |  Статическая  Load  Balancing | Динамическая  Load Balancing  Canary релизы |
-Аутентификация      | JWT  OAuth2  Key Auth  ACL  | Basic Auth  JWT (с модулями) | JWT  Basic Auth  OAuth2 (Middleware)  |
-HTTPS Termination   | Самоподписанные  Let's Encrypt  Custom Certs  | Самоподписанные  Let's Encrypt  Custom Certs  | Самоподписанные  Let's Encrypt  Custom Certs  |
-Мониторинг          | Prometheus  Datadog  Custom metrics  | Prometheus  Статус страницы  | Prometheus  Custom metrics  |
+Маршрутизация       | Динамическая <br> Load Balancing <br> Canary релизы <br> |  Статическая <br> Load <br> Balancing | Динамическая <br> Load Balancing <br> Canary релизы |
+Аутентификация      | JWT <br> OAuth2 <br> Key Auth <br> ACL  | Basic Auth <br> JWT (с модулями) | JWT <br> Basic Auth <br> OAuth2 (Middleware)  |
+HTTPS Termination | Самоподписанные <br> Let's Encrypt <br> Custom Certs| Самоподписанные <br> Let's Encrypt <br> Custom Certs | Самоподписанные <br> Let's Encrypt <br> Custom Certs  |
+Мониторинг          | Prometheus <br> Datadog <br> Custom metrics  | Prometheus <br> Статус страницы  | Prometheus <br> Custom metrics  |
 Производительность  | 15-20k RPS | 50-100k RPS | 0-15k RPS |
-Лицензирование и стоймойсть  | Enterprise  Free OSS  | Free OSS  Plus ($2500+/год)  | 100% Free OSS |
+Лицензирование и стоймойсть  | Enterprise <br> Free OSS  | Free OSS <br> Plus ($2500+/год)  | 100% Free OSS |
